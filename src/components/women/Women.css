@@ -1,0 +1,32 @@
+.women-container {
+  display: flex;
+  justify-content: center;
+}
+
+.women-container img {
+  width: 34rem;
+  height: 50rem;
+}
+
+.outfit-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.outfit-container img {
+  width: 35rem;
+  height: 55rem;
+  border-radius: 10px;
+}
+
+.women-out-fit {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 4s0px;
+}
+
+.women-out-fit img {
+  width: 30rem;
+  height: 45rem;
+}

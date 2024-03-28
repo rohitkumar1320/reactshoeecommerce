@@ -1,0 +1,38 @@
+.men-banner {
+  display: grid;
+  place-items: center;
+  padding: 40px 0px;
+}
+
+.nike-banner-two {
+  display: grid;
+  place-items: center;
+  padding: 40px 0px;
+}
+
+.mens-sports-shoe {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.mens-sports-shoe img {
+  height: 200px;
+  width: 200px;
+}
+
+.mens-sneakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.mens-sneakers img {
+  height: 200px;
+  width: 200px;
+}
