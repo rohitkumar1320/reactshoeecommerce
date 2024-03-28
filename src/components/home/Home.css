@@ -7,6 +7,16 @@
   margin-bottom: 40px;
 }
 
+.button-styling{
+  background-color: black;
+  color: white;
+}
+
+.button-styling:hover{
+  background-color: white;
+  color: black;
+}
+
 .home-main-gifs {
   display: flex;
   gap: 10px;

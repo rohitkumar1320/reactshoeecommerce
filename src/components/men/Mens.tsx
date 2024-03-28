@@ -25,12 +25,23 @@ function Mens() {
         <p style={{ margin: "0px", marginTop: "20px", paddingLeft: "50px" }}>
           <b>MENS</b>
         </p>
-        <div className="men-banner">
+        <div className="men-banner"style={{position:"relative", margin:"0px"}}>
           <img
             className="men-shoe-pic"
             src={nikemensbaner}
             alt="mensbaner"
           ></img>
+          <button className="shop-button-hai"
+              style={{
+                position: "absolute",
+                left: "47%",
+                bottom:"7%",
+                padding:"10px 20px",
+                borderRadius:"30px"
+              }}
+            >
+              Shop
+            </button>
         </div>
       </div>
       <p style={{ paddingLeft: "50px", color: "grey" }}>
@@ -91,7 +102,20 @@ function Mens() {
       <div>
         <div className="nike-banner-two">
           <p>FEATURED</p>
+          <div  style={{position:"relative", margin:"0px"}}>
           <img src={nikemensbanertwo} alt=""></img>
+          <button className="shop-button-hai"
+              style={{
+                position: "absolute",
+                left: "5%",
+                bottom:"7%",
+                padding:"10px 20px",
+                borderRadius:"30px"
+              }}
+            >
+              Shop
+            </button>
+          </div>
         </div>
       </div>
       <p style={{ paddingLeft: "50px", color: "grey" }}>

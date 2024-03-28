@@ -55,59 +55,53 @@ function Women() {
         <p style={{ paddingLeft: "20px", fontSize: "25px", color: "grey" }}>
           <b>Trending</b>
         </p>
-        <div className="women-out-fit">
-          <div>
+        <div className="women-out-fit" >
+          <div style={{ position: "relative" }}>
             <img className="womenfit" src={womenoutfit} alt="nikewomen"></img>
-            {/* <button
+            <button
+              className="shop-button-hai"
               style={{
                 position: "absolute",
-                left: "22%",
-                backgroundColor: "black",
-                color: "white",
-                borderRadius: "15px",
-                padding: "5px 10px",
+                left: "5%",
+                bottom: "7%",
               }}
             >
               Shop
-            </button> */}
+            </button>
           </div>
-          <div>
+          <div style={{ position: "relative" }}>
             <img
               className="womenfit"
               src={womenoutfitone}
               alt="nikewomen"
             ></img>
-            {/* <button
+            <button
+              className="shop-button-hai"
               style={{
                 position: "absolute",
-                left: "22%",
-                backgroundColor: "black",
-                color: "white",
-                borderRadius: "15px",
-                padding: "5px 10px",
+                left: "5%",
+                bottom: "7%",
               }}
             >
               Shop
-            </button> */}
+            </button>
           </div>
-          <div>
+          <div style={{ position: "relative" }}>
             <img
               className="womenfit"
               src={womenoutfittwo}
               alt="nikewomen"
             ></img>
-            {/* <button
+            <button
+              className="shop-button-hai"
               style={{
                 position: "absolute",
-                left: "22%",
-                backgroundColor: "black",
-                color: "white",
-                borderRadius: "15px",
-                padding: "5px 10px",
+                left: "5%",
+                bottom: "7%",
               }}
             >
               Shop
-            </button> */}
+            </button>
           </div>
         </div>
         <p style={{ paddingLeft: "50px", color: "grey" }}>

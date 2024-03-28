@@ -21,25 +21,13 @@ import trendingone from "../../assets/trending1.jpeg";
 import trendingtwo from "../../assets/trending2.jpeg";
 // import walkingshoe from "../../assets/walkingshoe.gif";
 import "./Home.css";
+import Banner from "./Components/Banner";
 // import NikeVideo from "../../assets/nikevideo.mp4";
 
 function Home() {
   return (
     <div>
-      <div style={{ position: "relative" }}>
-        <img className="yoyotyoo" src={nikebody} alt="nike body"></img>
-        <button className="button-styling"
-          style={{
-            position: "absolute",
-            top: "90%",
-            right: "90.5%",
-            padding:"10px 20px",
-            borderRadius:"30px",
-            border:"0px"
-          }}
-        >Buy
-        </button>
-      </div>
+      <Banner />
       <p className="title-for-home-main">
         <b />
         THE NEW COLLECTION OF THE NIKE
@@ -134,7 +122,7 @@ function Home() {
       <p className="home-jorden-title">AIR JORDEN XXXVIII LOW</p>
       <p className="home-jorden-info">
         show 'em how you ball with the newest Air Jordan xxxviii Low. 'Alumni
-        Blue' nods to the icons of collegiate <br/>
+        Blue' nods to the icons of collegiate <br />
         hoops history, with pops of blue across its all-black silhouette
       </p>
       <div className="shop-title-one">

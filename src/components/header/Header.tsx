@@ -40,7 +40,7 @@ const Header = () => {
           src={nikelogo3}
           alt="nikelogo3"
           onClick={() => {
-            navigate("/");
+            navigate("/reactshoeecommerce");
           }}
         ></img>
         <nav>

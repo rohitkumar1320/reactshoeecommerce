@@ -30,3 +30,17 @@
   width: 30rem;
   height: 45rem;
 }
+
+.shop-button-hai {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: 0px;
+}
+
+.shop-button-hai:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
