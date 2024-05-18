@@ -69,3 +69,11 @@
   color: white;
   background-color: black;
 }
+
+@media (max-width:600px){
+  .tfcytcrjdc {
+   width: full;
+   flex-shrink: 0px;
+
+  }
+}

@@ -3,7 +3,7 @@ import "./Header.css";
 import { BsBag } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { IoMdHeartEmpty } from "react-icons/io";
-import nikelogo3 from "../../assets/nikelogo3.gif";
+import nikelogo3 from "/nike/src/assets/nikelogo3.gif";
 import { Navigate, useNavigate } from "react-router-dom";
 import { SiJordan } from "react-icons/si";
 import { CgProfile } from "react-icons/cg";
@@ -11,11 +11,11 @@ import { CgProfile } from "react-icons/cg";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="tfcytcrjdc">
       <div className="website-top">
         <SiJordan 
         onClick={() => {
-          navigate("/reactshoeecommerce");
+          navigate("/");
         }} />
         <nav>
           <ul className="website-top-heading">
@@ -40,7 +40,7 @@ const Header = () => {
           src={nikelogo3}
           alt="nikelogo3"
           onClick={() => {
-            navigate("/reactshoeecommerce");
+            navigate("/");
           }}
         ></img>
         <nav>
@@ -60,7 +60,7 @@ const Header = () => {
           </ul>
         </nav>
 
-        <nav>
+        <nav className="header-cart-logooo">
           <ul className="header-cart-logo">
             <li>
               <input

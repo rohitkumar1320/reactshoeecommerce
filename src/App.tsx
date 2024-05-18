@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./components/header/Header";
-import Home from "./Screens/Home";
+import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./components/contactus/ContactUs";
 import { Route, Routes } from "react-router-dom";
@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header></Header>
       <Routes>
-        <Route path='/reactshoeecommerce' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='/contact' element={<ContactUs />}></Route>
         <Route path='/mens' element={<Mens />}></Route>
         <Route path='/women' element={<Women></Women>}></Route>
