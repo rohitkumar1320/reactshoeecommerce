@@ -1,18 +1,18 @@
 import React from "react";
-import nikemenone from "/nike/src/assets/men1.jpeg";
-import nikementwo from "/nike/src/assets/men2.jpeg";
-import nikementhree from "/nike/src/assets/men3.jpeg";
-import nikemenfour from "/nike/src/assets/men4.jpeg";
-import nikemenfive from "/nike/src/assets/men5.jpeg";
-import nikemensix from "/nike/src/assets/men6.jpeg";
-import mensneakersone from "/nike/src/assets/speakers1.jpeg";
-import mensneakerstwo from "/nike/src/assets/speakers2.jpeg";
-import mensneakersthree from "/nike/src/assets/speakers3.jpeg";
-import mensneakersfour from "/nike/src/assets/speakers4.jpeg";
-import mensneakersfive from "/nike/src/assets/speakers5.jpeg";
-import mensneakerssix from "/nike/src/assets/speakers6.jpeg";
-import nikemensbaner from "/nike/src/assets/nikemenbaner.jpeg";
-import nikemensbanertwo from "/nike/src/assets/nikebanner2.jpeg";
+import nikemenone from "/reactshoeecommerce/src/assets/men1.jpeg";
+import nikementwo from "/reactshoeecommerce/src/assets/men2.jpeg";
+import nikementhree from "/reactshoeecommerce/src/assets/men3.jpeg";
+import nikemenfour from "/reactshoeecommerce/src/assets/men4.jpeg";
+import nikemenfive from "/reactshoeecommerce/src/assets/men5.jpeg";
+import nikemensix from "/reactshoeecommerce/src/assets/men6.jpeg";
+import mensneakersone from "/reactshoeecommerce/src/assets/speakers1.jpeg";
+import mensneakerstwo from "/reactshoeecommerce/src/assets/speakers2.jpeg";
+import mensneakersthree from "/reactshoeecommerce/src/assets/speakers3.jpeg";
+import mensneakersfour from "/reactshoeecommerce/src/assets/speakers4.jpeg";
+import mensneakersfive from "/reactshoeecommerce/src/assets/speakers5.jpeg";
+import mensneakerssix from "/reactshoeecommerce/src/assets/speakers6.jpeg";
+import nikemensbaner from "/reactshoeecommerce/src/assets/nikemenbaner.jpeg";
+import nikemensbanertwo from "/reactshoeecommerce/src/assets/nikebanner2.jpeg";
 // import videoone from "/nike//src/assets/nikevid2.mp4"
 // import ReactPlayer from 'react-player'
 // import {PLayer} from 'video-react';

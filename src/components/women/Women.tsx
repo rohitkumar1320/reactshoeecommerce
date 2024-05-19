@@ -1,18 +1,18 @@
 import React from "react";
-import women from "/nike/src/assets/women.jpeg";
-import womenone from "/nike/src/assets/women1.jpeg";
-import womentwo from "/nike/src/assets/women2.jpeg";
-import nikeoutfit from "/nike/src/assets/nikeoutfit.jpeg";
-import nikeoutiftone from "/nike/src/assets/nikeoutfit1.jpeg";
-import womenoutfit from "/nike/src/assets/womenoutfit.jpeg";
-import womenoutfitone from "/nike/src/assets/womenoutfit1.jpeg";
-import womenoutfittwo from "/nike/src/assets/womenoutfit2.jpeg";
-import nikemenone from "/nike/src/assets/men1.jpeg";
-import nikementwo from "/nike/src/assets/men2.jpeg";
-import nikementhree from "/nike/src/assets/men3.jpeg";
-import nikemenfour from "/nike/src/assets/men4.jpeg";
-import nikemenfive from "/nike/src/assets/men5.jpeg";
-import nikemensix from "/nike/src/assets/men6.jpeg";
+import women from "/reactshoeecommerce/src/assets/women.jpeg";
+import womenone from "/reactshoeecommerce/src/assets/women1.jpeg";
+import womentwo from "/reactshoeecommerce/src/assets/women2.jpeg";
+import nikeoutfit from "/reactshoeecommerce/src/assets/nikeoutfit.jpeg";
+import nikeoutiftone from "/reactshoeecommerce/src/assets/nikeoutfit1.jpeg";
+import womenoutfit from "/reactshoeecommerce/src/assets/womenoutfit.jpeg";
+import womenoutfitone from "/reactshoeecommerce/src/assets/womenoutfit1.jpeg";
+import womenoutfittwo from "/reactshoeecommerce/src/assets/womenoutfit2.jpeg";
+import nikemenone from "/reactshoeecommerce/src/assets/men1.jpeg";
+import nikementwo from "/reactshoeecommerce/src/assets/men2.jpeg";
+import nikementhree from "/reactshoeecommerce/src/assets/men3.jpeg";
+import nikemenfour from "/reactshoeecommerce/src/assets/men4.jpeg";
+import nikemenfive from "/reactshoeecommerce/src/assets/men5.jpeg";
+import nikemensix from "/reactshoeecommerce/src/assets/men6.jpeg";
 
 import "./Women.css";
 function Women() {

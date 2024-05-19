@@ -3,7 +3,7 @@ import "./Header.css";
 import { BsBag } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { IoMdHeartEmpty } from "react-icons/io";
-import nikelogo3 from "/nike/src/assets/nikelogo3.gif";
+import nikelogo3 from "/reactshoeecommerce/src/assets/nikelogo3.gif";
 import { Navigate, useNavigate } from "react-router-dom";
 import { SiJordan } from "react-icons/si";
 import { CgProfile } from "react-icons/cg";
