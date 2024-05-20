@@ -18,14 +18,14 @@ const Footer = () => {
       >
         <div className="footer-box-item" style={{ display: "flex" }}>
           <div style={{ flex: 1 }}>
-            <ul style={{ listStyle: "none", lineHeight: "2",color: "#cccccc" }}>
+            <ul style={{ listStyle: "none", padding:"5px" ,lineHeight: "2",color: "#cccccc" }}>
               <li><b>Find a Store</b></li>
               <li><b>Become a Member</b></li>
               <li><b>Send Us Feedback</b></li>
             </ul>
           </div>
           <div style={{ flex: 1 }}>
-            <ul style={{ listStyle: "none", lineHeight: "2",color: "#cccccc"}}>
+            <ul style={{ listStyle: "none", padding:"5px" , lineHeight: "2",color: "#cccccc"}}>
               <li><b>GET HELP</b></li>
               <li>Order Status</li>
               <li>Delivery</li>
@@ -36,7 +36,7 @@ const Footer = () => {
             </ul>
           </div>
           <div style={{ flex: 1 }}>
-            <ul style={{ listStyle: "none", lineHeight: "2",color: "#cccccc" }}>
+            <ul style={{ listStyle: "none", padding:"5px" , lineHeight: "2",color: "#cccccc" }}>
               <li><b>ABOUT NIKE</b></li>
               <li>News</li>
               <li>Careers</li>
@@ -44,7 +44,7 @@ const Footer = () => {
               <li>Sustainability</li>
             </ul>
           </div>
-          <div style={{ display:"flex", justifyContent:"flex-end", flex: 2 ,color:"#cccccc"}}>
+          <div style={{ display:"flex", padding:"5px" , justifyContent:"flex-end", flex: 2 ,color:"#cccccc"}}>
             <div className="footer-icons" style={{paddingRight:"20px" }} >
               <AiFillTwitterCircle style={{padding:"10px", fontSize:"30px", marginTop:"20px" }} />
               <MdFacebook  style={{padding:"10px", fontSize:"30px"}} />

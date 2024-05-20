@@ -13,27 +13,30 @@ const Header = () => {
   return (
     <div className="tfcytcrjdc">
       <div className="website-top">
-        <SiJordan 
-        onClick={() => {
-          navigate("/");
-        }} />
+        <SiJordan
+          onClick={() => {
+            navigate("/");
+          }}
+        />
         <nav>
           <ul className="website-top-heading">
             <li className="top-heading">Find a store |</li>
-            <li className="top-heading"
+            <li
+              className="top-heading"
               onClick={() => {
                 navigate("/contact");
               }}
-           >Help |</li>
+            >
+              Help |
+            </li>
             <li className="top-heading">
               <CgProfile />{" "}
             </li>
-            <li>
-              Hi User
-            </li>
+            <li className="margin-of-hi-user">Hi User</li>
           </ul>
         </nav>
       </div>
+
       <div className="header-nav-bar">
         <img
           className="header-logo"
@@ -53,16 +56,23 @@ const Header = () => {
             >
               Men
             </li>
-            <li className="nav-list" onClick={()=>{navigate("/women");}} >Women</li>
+            <li
+              className="nav-list"
+              onClick={() => {
+                navigate("/women");
+              }}
+            >
+              Women
+            </li>
             <li className="nav-list">Kids</li>
             <li className="nav-list">Sale</li>
             <li className="nav-list">Customise</li>
           </ul>
         </nav>
 
-        <nav className="header-cart-logooo">
+        <nav className="header-cart">
           <ul className="header-cart-logo">
-            <li>
+            <li className="list-search-bar">
               <input
                 type="text"
                 className="input-box"
@@ -72,10 +82,10 @@ const Header = () => {
                 <CiSearch />
               </button>
             </li>
-            <li>
+            <li className="icon-customs">
               <IoMdHeartEmpty />
             </li>
-            <li>
+            <li className="icon-custom">
               <BsBag />
             </li>
           </ul>

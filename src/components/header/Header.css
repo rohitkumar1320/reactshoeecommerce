@@ -1,79 +1,518 @@
-.website-top {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(236, 236, 236);
-  padding: 5px;
-  font-size: small;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .website-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    font-size: small;
+  }
+  .website-top-heading {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .margin-of-hi-user {
+    margin-right: 15px;
+  }
+
+  .header-nav-bar {
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* justify-content: space-between; */
+    background-color: black;
+    color: white;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .header-logo {
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 55px;
+    height: 40px;
+  }
+
+  .header-cart-logooo {
+    display: flex;
+  }
+
+  .header-cart-logo {
+    display: flex;
+    gap: 5px;
+    cursor: grab;
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px;
+  }
+
+  .nav-list {
+    cursor: pointer;
+  }
+
+  .list-search-bar {
+    display: flex;
+    margin-left: 40px;
+  }
+  .input-box {
+    display: flex;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .search-button {
+    display: flex;
+    width: fit-content;
+    border: none;
+    font-size: 28px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+
+  .icon-customs {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .icon-custom {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .third-heading {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+  }
 }
 
-.website-top-heading {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .website-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    font-size: small;
+  }
+  .website-top-heading {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .margin-of-hi-user {
+    margin-right: 15px;
+  }
+
+  .header-nav-bar {
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* justify-content: space-between; */
+    background-color: black;
+    color: white;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .header-logo {
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 55px;
+    height: 40px;
+  }
+
+  .header-cart-logooo {
+    display: flex;
+  }
+
+  .header-cart-logo {
+    display: flex;
+    gap: 5px;
+    cursor: grab;
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px;
+  }
+
+  .nav-list {
+    cursor: pointer;
+  }
+
+  .list-search-bar {
+    display: flex;
+    margin-left: 40px;
+  }
+  .input-box {
+    display: flex;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .search-button {
+    display: flex;
+    width: fit-content;
+    border: none;
+    font-size: 28px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+
+  .icon-customs {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .icon-custom {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  .third-heading {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+  }
 }
 
-.third-heading {
-  text-align: center;
-  background-color: rgb(236, 236, 236);
-  padding: 10px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .website-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    font-size: small;
+  }
+  .website-top-heading {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .margin-of-hi-user {
+    margin-right: 15px;
+  }
+
+  .header-nav-bar {
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .header-logo {
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 55px;
+    height: 40px;
+  }
+
+  .header-cart-logooo {
+    display: flex;
+  }
+
+  .header-cart-logo {
+    display: flex;
+    gap: 5px;
+    cursor: grab;
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px;
+  }
+
+  .nav-list {
+    cursor: pointer;
+  }
+
+  .list-search-bar {
+    display: flex;
+    margin-left: 40px;
+  }
+  .input-box {
+    display: flex;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .search-button {
+    display: flex;
+    width: fit-content;
+    border: none;
+    font-size: 28px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+
+  .icon-customs {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .icon-custom {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .third-heading {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+  }
 }
 
-.header-nav-bar {
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
-  color: white;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .website-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    font-size: small;
+  }
+  .website-top-heading {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .margin-of-hi-user {
+    margin-right: 15px;
+  }
+
+  .header-nav-bar {
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .header-logo {
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 55px;
+    height: 40px;
+  }
+
+  .header-cart-logooo {
+    display: flex;
+  }
+
+  .header-cart-logo {
+    display: flex;
+    gap: 5px;
+    cursor: grab;
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px;
+  }
+
+  .nav-list {
+    cursor: pointer;
+  }
+
+  .list-search-bar {
+    display: flex;
+    margin-left: 40px;
+  }
+  .input-box {
+    display: flex;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .search-button {
+    display: flex;
+    width: fit-content;
+    border: none;
+    font-size: 28px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+
+  .icon-customs {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .icon-custom {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .third-heading {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+  }
 }
 
-.header-nav-list {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  padding-left: 0px;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .website-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    font-size: small;
+  }
+  .website-top-heading {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .margin-of-hi-user {
+    margin-right: 15px;
+  }
 
-.header-logo {
-  width: 85px;
-  padding-left: 10px;
-}
+  .header-nav-bar {
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
 
-.header-cart-logo {
-  display: flex;
-  gap: 10px;
-  cursor: grab;
-  list-style: none;
-  padding-left: 0px;
-  margin: 10px;
-}
+  .header-nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
 
-.nav-list {
-  cursor: pointer;
-}
+  .header-logo {
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 55px;
+    height: 40px;
+  }
 
-.search {
-  padding-top: 13px;
-}
-.input-box {
-  padding-left: 15px;
-  border-radius: 10px;
-  border: 1px solid black;
-}
-.search-button {
-  border: none;
-  font-size: 20px;
-  padding-top: 5px;
-  cursor: pointer;
-  color: white;
-  background-color: black;
-}
+  .header-cart-logooo {
+    display: flex;
+  }
 
-@media (max-width:600px){
-  .tfcytcrjdc {
-   width: full;
-   flex-shrink: 0px;
+  .header-cart-logo {
+    display: flex;
+    gap: 5px;
+    cursor: grab;
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px;
+  }
 
+  .nav-list {
+    cursor: pointer;
+  }
+
+  .list-search-bar {
+    display: flex;
+    margin-left: 40px;
+  }
+  .input-box {
+    display: flex;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .search-button {
+    display: flex;
+    width: fit-content;
+    border: none;
+    font-size: 28px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+
+  .icon-customs {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .icon-custom {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .third-heading {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
   }
 }

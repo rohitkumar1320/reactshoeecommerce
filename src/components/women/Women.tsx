@@ -19,40 +19,38 @@ function Women() {
   return (
     <div>
       <div>
-        <p style={{ padding: "10px", fontSize: "larger" }}>
+        <p style={{ fontSize: "larger", marginLeft:"20px" }}>
           <b>WOMEN</b>
         </p>
         <div className="women-container">
-          <img className="women-banner" src={women} alt="womenbaner"></img>
-          <img className="women-banner" src={womenone} alt="womenbaner"></img>
-          <img className="women-banner" src={womentwo} alt="womenbaner"></img>
+          <div className="women-container-one">
+          <img className="women-banner"  style={{borderRadius:"10px"}} src={women} alt="womenbaner"></img>
+          <img className="women-banner"  style={{borderRadius:"10px"}} src={womenone} alt="womenbaner"></img>
+          <img className="women-banner"  style={{borderRadius:"10px"}} src={womentwo} alt="womenbaner"></img>
+          </div>
         </div>
         <div style={{ textAlign: "center" }}>
           <p style={{ marginTop: "20px", marginBottom: "0px" }}>
             Feel the Unreal
           </p>
-          <p style={{ margin: "0px", fontSize: "5rem", wordSpacing: "5px" }}>
+          <p style={{ margin: "0px", fontSize: "x-large", wordSpacing: "5px" }}>
             <b>AIR MAX DN</b>
           </p>
           <p style={{ margin: "0px", marginBottom: "20px" }}>
             The next generation of Air technology is here
           </p>
-          <div className="shop-title shoptwo">
-            <p style={{ marginBottom: "20px" }}>Shop</p>
+          <div>
+            <button className="shop-title-shoptwo">Shop</button>
           </div>
         </div>
-        <p style={{ paddingLeft: "20px", fontSize: "25px", color: "grey" }}>
+        <p style={{ marginLeft: "20px", fontSize: "large", color: "grey" }}>
           <b>Featured</b>
         </p>
         <div className="outfit-container">
-          <img className="women-dress" src={nikeoutfit} alt="nikewomen"></img>
-          <img
-            className="women-dress"
-            src={nikeoutiftone}
-            alt="nikewomen"
-          ></img>
+          <img className="women-dress"  style={{borderRadius:"10px"}}  src={nikeoutfit} alt="nikewomen"></img>
+          <img className="women-dress" style={{borderRadius:"10px"}}  src={nikeoutiftone} alt="nikewomen"></img>
         </div>
-        <p style={{ paddingLeft: "20px", fontSize: "25px", color: "grey" }}>
+        <p style={{ paddingLeft: "20px", fontSize: "large", color: "grey" }}>
           <b>Trending</b>
         </p>
         <div className="women-out-fit" >
@@ -61,6 +59,9 @@ function Women() {
             <button
               className="shop-button-hai"
               style={{
+                backgroundColor:"black",
+                color:"white",
+                borderRadius:"10px",
                 position: "absolute",
                 left: "5%",
                 bottom: "7%",
@@ -78,6 +79,9 @@ function Women() {
             <button
               className="shop-button-hai"
               style={{
+                backgroundColor:"black",
+                color:"white",
+                borderRadius:"10px",
                 position: "absolute",
                 left: "5%",
                 bottom: "7%",
@@ -95,6 +99,9 @@ function Women() {
             <button
               className="shop-button-hai"
               style={{
+                backgroundColor:"black",
+                color:"white",
+                borderRadius:"10px",
                 position: "absolute",
                 left: "5%",
                 bottom: "7%",
@@ -104,7 +111,7 @@ function Women() {
             </button>
           </div>
         </div>
-        <p style={{ paddingLeft: "50px", color: "grey" }}>
+        <p style={{ paddingLeft: "20px", fontSize: "small", color: "grey" }}>
           <h2> Sports Shoes </h2>
         </p>
         <div className="mens-sports-shoe">

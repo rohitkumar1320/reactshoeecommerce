@@ -1,26 +1,14 @@
-.men-banner {
-  display: grid;
-  place-items: center;
-  padding: 40px 0px;
-}
-
 .nike-banner-two {
   display: grid;
   place-items: center;
-  padding: 40px 0px;
 }
 
-.mens-sports-shoe {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
-  margin-bottom: 70px;
-  margin-left: 50px;
-}
-
-.mens-sports-shoe img {
-  height: 200px;
-  width: 200px;
+.nike-poster {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  display: block;
+  width: 95%;
 }
 
 .mens-sneakers {
@@ -32,7 +20,180 @@
   margin-left: 50px;
 }
 
-.mens-sneakers img {
-  height: 200px;
-  width: 200px;
+/* ---------------------------------mediaquery-------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .men-shoe-pic {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    display: block;
+    width: 95%;
+  }
+  .shop-button-hai-ok {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: x-small;
+    padding: 2px 5px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+
+  .shop-button-hai-ok:hover {
+    box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+    transform: translate(-2px, -2px);
+  }
+
+  .mens-sports-shoe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 20px 20px;
+  }
+  .mens-sports-shoe p {
+    font-size: x-small;
+  }
+
+  .mens-sports-shoe button {
+    font-size: x-small;
+  }
+
+  .mens-sports-shoe img {
+    object-fit: contain;
+    height: 30%;
+    width: 60%;
+    margin: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .men-shoe-pic {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    display: block;
+    width: 95%;
+  }
+  .shop-button-hai-ok {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: x-small;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+
+  .shop-button-hai-ok:hover {
+    box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+    transform: translate(-2px, -2px);
+  }
+  .mens-sports-shoe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 20px 20px;
+  }
+  .mens-sports-shoe p {
+    font-size: small;
+  }
+
+  .mens-sports-shoe button {
+    font-size: small;
+  }
+
+  .mens-sports-shoe img {
+    object-fit: contain;
+    height: 50%;
+    width: 70%;
+    margin: 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .men-shoe-pic {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    display: block;
+    width: 95%;
+  }
+  .shop-button-hai-ok {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: x-small;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+
+  .shop-button-hai-ok:hover {
+    box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+    transform: translate(-2px, -2px);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .men-shoe-pic {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    display: block;
+    width: 95%;
+  }
+  .shop-button-hai-ok {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: x-small;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+
+  .shop-button-hai-ok:hover {
+    box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+    transform: translate(-2px, -2px);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .men-shoe-pic {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    display: block;
+    width: 95%;
+  }
+  .shop-button-hai-ok {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: x-small;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+
+  .shop-button-hai-ok:hover {
+    box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+    transform: translate(-2px, -2px);
+  }
 }

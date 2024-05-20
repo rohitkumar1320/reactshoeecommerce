@@ -25,21 +25,13 @@ function Mens() {
         <p style={{ margin: "0px", marginTop: "20px", paddingLeft: "50px" }}>
           <b>MENS</b>
         </p>
-        <div className="men-banner"style={{position:"relative", margin:"0px"}}>
+        <div className="men-banner"style={{position:"relative",padding:"0px" , margin:"10px"}}>
           <img
             className="men-shoe-pic"
             src={nikemensbaner}
             alt="mensbaner"
           ></img>
-          <button className="shop-button-hai"
-              style={{
-                position: "absolute",
-                left: "47%",
-                bottom:"7%",
-                padding:"10px 20px",
-                borderRadius:"30px"
-              }}
-            >
+          <button className="shop-button-hai-ok">
               Shop
             </button>
         </div>
@@ -54,10 +46,12 @@ function Mens() {
             src={nikemenone}
             alt="nikesportshoe"
           ></img>
+          <div>
           <p>nike sport shoe</p>
           <p>₹5000</p>
           <button>-</button>
           <button>+</button>
+          </div>
         </div>
         <div>
           <img className="nike-men" src={nikementwo} alt="nikesportshoe"></img>
@@ -72,56 +66,58 @@ function Mens() {
             src={nikementhree}
             alt="nikesportshoe"
           ></img>
+          <div>
           <p>nike sport shoe</p>
           <p>₹5000</p>
           <button>-</button>
           <button>+</button>
+          </div>
         </div>
         <div>
           <img className="nike-men" src={nikemenfour} alt="nikesportshoe"></img>
+          <div>
           <p>nike sport shoe</p>
           <p>₹5000</p>
           <button>-</button>
           <button>+</button>
+          </div>
         </div>
         <div>
           <img className="nike-men" src={nikemenfive} alt="nikesportshoe"></img>
+          <div>
           <p>nike sport shoe</p>
           <p>₹5000</p>
           <button>-</button>
           <button>+</button>
+          </div>
         </div>
         <div>
           <img className="nike-men" src={nikemensix} alt="nikesportshoe"></img>
+          <div>
           <p>nike sport shoe</p>
           <p>₹5000</p>
           <button>-</button>
           <button>+</button>
+          </div>
         </div>
       </div>
+      <p style={{ paddingLeft: "50px", color: "grey" }}>
+        <h2>Featured </h2>
+      </p>
       <div>
         <div className="nike-banner-two">
-          <p>FEATURED</p>
           <div  style={{position:"relative", margin:"0px"}}>
-          <img src={nikemensbanertwo} alt=""></img>
-          <button className="shop-button-hai"
-              style={{
-                position: "absolute",
-                left: "5%",
-                bottom:"7%",
-                padding:"10px 20px",
-                borderRadius:"30px"
-              }}
-            >
+          <img className="nike-poster" src={nikemensbanertwo} alt=""></img>
+          <button className="shop-button-hai-ok">
               Shop
-            </button>
+          </button>
           </div>
         </div>
       </div>
       <p style={{ paddingLeft: "50px", color: "grey" }}>
         <h2>Mens Sneakers</h2>
       </p>
-      <div className="mens-sneakers">
+      <div className="mens-sports-shoe">
         <div className="mens-sneakers-countainer">
           <img
             className="nike-men-sneakers"
@@ -189,11 +185,7 @@ function Mens() {
           <button>+</button>
         </div>
       </div>
-      <div>
-        {/* <Player>
-      <source src="https://pin.it/5unGk5Yel" />
-    </Player> */}
-      </div>
+
     </div>
   );
 }

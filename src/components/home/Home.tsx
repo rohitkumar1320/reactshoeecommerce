@@ -28,17 +28,7 @@ function Home() {
     <div>
       <div style={{ position: "relative" }}>
         <img className="yoyotyoo" src={nikebody} alt="nike body"></img>
-        <button className="button-styling"
-          style={{
-            position: "absolute",
-            top: "90%",
-            right: "90.5%",
-            padding:"10px 20px",
-            borderRadius:"30px",
-            border:"0px"
-          }}
-        >Buy
-        </button>
+        <button className="button-styling">Buy</button>
       </div>
       <p className="title-for-home-main">
         <b />
@@ -66,10 +56,7 @@ function Home() {
           alt="nikehomelogo"
         ></img>
       </div>
-      {/* <div className="walikng-shoe-one">
-        <p style={{ textAlign: "center" }}>Its loading...please wait</p>
-        <img className="nike-walking" src={walkingshoe} alt="nikewalking"></img>
-      </div> */}
+
       <div className="grid-container">
         <div className="grid-sub-container">
           {" "}
@@ -131,10 +118,11 @@ function Home() {
         </div>
       </div>
 
-      <p className="home-jorden-title">AIR JORDEN XXXVIIIsfsdf LOW</p>
+      <p className="home-jorden-title">AIR JORDEN XXXVIII LOW</p>
       <p className="home-jorden-info">
         show 'em how you ball with the newest Air Jordan xxxviii Low. 'Alumni
-        Blue' nods to the icons of collegiate<br/>
+        Blue' nods to the icons of collegiate
+        <br />
         hoops history, with pops of blue across its all-black silhouette
       </p>
       <div className="shop-title-one">
@@ -188,7 +176,3 @@ function Home() {
 }
 
 export default Home;
-
-// <img className="nike-bottom2" src={nikebottom2} alt="nikebottom"></img>
-// <img className="nike-bottom" src={nikebottom} alt="nikebottom"></img>
-// <img className="nike-bottom1" src={nikebottom1} alt="nikebottom"></img>

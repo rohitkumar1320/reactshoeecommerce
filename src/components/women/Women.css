@@ -1,46 +1,142 @@
-.women-container {
-  display: flex;
-  justify-content: center;
-}
 
-.women-container img {
-  width: 34rem;
-  height: 50rem;
-}
-
-.outfit-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-.outfit-container img {
-  width: 35rem;
-  height: 55rem;
-  border-radius: 10px;
-}
 
 .women-out-fit {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding-left: 4s0px;
+  gap: 5px;
+  margin: 10px;
+}
+.women-out-fit div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
-.women-out-fit img {
-  width: 30rem;
-  height: 45rem;
+
+
+
+
+
+
+/* ----------------mediaquery------------------------ */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .women-container-one{
+    display: flex;
+    gap: 5px;
+    width: 180px;
+    height: 180px;
+    margin-left: 5px;
+  }
+  .shop-title-shoptwo{
+    font-size:small;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+  .shop-title-shoptwo:hover{
+      box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+      transform: translate(-2px, -2px);
+  }
+  .outfit-container {
+    display: flex;
+    gap: 5px;
+    padding-left:35px ;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+  }
 }
 
-.shop-button-hai {
-  background-color: black;
-  color: white;
-  border-radius: 15px;
-  padding: 5px 10px;
-  border: 0px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .women-container-one{
+    display: flex;
+    gap: 5px;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+  }
+
+  .shop-title-shoptwo{
+    font-size:larger;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+  }
+  .shop-title-shoptwo:hover{
+      box-shadow: 3px 3px white, 6px 6px 0 0 #0f172a;
+      transform: translate(-2px, -2px);
+  }
+  .outfit-container {
+    display: flex;
+    gap: 5px;
+    padding-left:60px ;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+  }
+
 }
 
-.shop-button-hai:hover {
-  background-color: white;
-  color: black;
-  cursor: pointer;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .women-container-one{
+    display: flex;
+    gap: 5px;
+    width: 450px;
+    height: 460px;
+    margin: 15px;
+  }
+  .outfit-container {
+    display: flex;
+    gap: 5px;
+    padding-left:45px ;
+    width: 600px;
+    height: 600px;
+    margin-left: 35px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .women-container-one{
+    display: flex;
+    gap: 5px;
+    width: 550px;
+    height: 550px;
+    margin: 10px;
+    padding-left: 150px;
+  }
+  .outfit-container {
+    display: flex;
+    gap: 5px;
+    padding-left:80px ;
+    width: 700px;
+    height: 700px;
+    margin-left: 80px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .women-container-one{
+    display: flex;
+    gap: 5px;
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+  }
+  .outfit-container {
+    display: flex;
+    gap: 5px;
+    padding-left:180px ;
+    width: 650px;
+    height: 650px;
+    margin-left: 150px;
+  }
 }

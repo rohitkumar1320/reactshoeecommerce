@@ -9,7 +9,80 @@
 }
 
 .contact-us-countainer{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    place-items: center;
+    display: flex;
+    flex-grow: inherit;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.assists-container ul{
+  margin: 5px;
+  padding: 5px;
+}
+
+
+/* ---------------------------mediaquery--------------------------- */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .input-here{
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .search-here-button{
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .input-here{
+        padding: 20px 120px;
+        border-radius: 10px;
+      }
+      .search-here-button{
+        padding: 20px 30px;
+        border-radius: 10px;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .input-here{
+        padding: 20px 150px;
+        border-radius: 10px;
+      }
+      .search-here-button{
+        padding: 20px 30px;
+        border-radius: 10px;
+      }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .input-here{
+        padding: 25px 160px;
+        border-radius: 10px;
+      }
+      .search-here-button{
+        padding: 25px 30px;
+        border-radius: 10px;
+      }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .input-here{
+        padding: 20px 160px;
+        border-radius: 10px;
+      }
+      .search-here-button{
+        padding: 20px 30px;
+        border-radius: 10px;
+      }
 }

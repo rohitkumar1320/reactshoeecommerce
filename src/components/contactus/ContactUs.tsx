@@ -12,8 +12,8 @@ function ContactUs() {
       <h1 style={{textAlign:"center", fontWeight:"normal"}}>GET HELP </h1>
       <div className="search-here">
       <p>
-        <input type="text"className="input-here"placeholder="What can we help you?" style={{padding:"15px 150px", borderRadius:"10px"}}/>
-      <button className="search-here-button" style={{padding:"14px 20px", borderRadius:"10px"}}>
+        <input type="text"className="input-here"placeholder="What can we help you?"/>
+      <button className="search-here-button">
       <CiSearch />
        </button>
        </p>
@@ -74,12 +74,12 @@ function ContactUs() {
       </div>
       <p style={{paddingLeft:"20px"}}><b>Contact US</b></p>
       <div className="contact-us-countainer">
-          <div style={{ color:"grey"}}><BiMessageDetail style={{fontSize:"35px",padding:"34px"}} /><br/>24 hours a days<br/>7 days a week</div>
-          <div style={{ color:"grey"}}><IoPhonePortraitOutline  style={{fontSize:"35px", padding:"20px 150px", marginTop:"20px"}} /><br/>000 800 919 0566<br/>
+          <div style={{ color:"grey"}}><BiMessageDetail style={{fontSize:"30px"}}/><br/>24 hours a days<br/>7 days a week</div>
+          <div style={{ color:"grey"}}><IoPhonePortraitOutline style={{fontSize:"30px"}}/><br/>000 800 919 0566<br/>
 Products & Orders: 03:30 - 21:30, 7 days a week<br/>
 Company Info & Enquiries: 07:30 - 16:30, Monday - Friday</div>
-          <div style={{ color:"grey"}}><GoMail  style={{fontSize:"35px",padding:"30px 50px"}} /><br/>We'll reply within<br/>five business days</div>
-          <div style={{ color:"grey", paddingBottom:"20px"}}><SlLocationPin  style={{fontSize:"35px",padding:"34px"}} /><br/>store locator</div>
+          <div style={{ color:"grey"}}><GoMail style={{fontSize:"30px"}}/><br/>We'll reply within<br/>five business days</div>
+          <div style={{ color:"grey", paddingBottom:"20px"}}><SlLocationPin style={{fontSize:"30px"}}/><br/>store locator</div>
       </div>
     </div>
   );
