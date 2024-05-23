@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactshoeecommerce/static/css/main.4783f83f.css",
-    "main.js": "/reactshoeecommerce/static/js/main.4bfb82eb.js",
+    "main.css": "/reactshoeecommerce/static/css/main.2957eae9.css",
+    "main.js": "/reactshoeecommerce/static/js/main.511e00d8.js",
     "static/js/453.90419930.chunk.js": "/reactshoeecommerce/static/js/453.90419930.chunk.js",
     "static/media/nikehome1.gif": "/reactshoeecommerce/static/media/nikehome1.0767256d89c51d35672e.gif",
     "static/media/nikehome5.gif": "/reactshoeecommerce/static/media/nikehome5.5eabbf9924b1d70c7e47.gif",
@@ -45,12 +45,12 @@
     "static/media/speakers6.jpeg": "/reactshoeecommerce/static/media/speakers6.09a205aa43eda1d13024.jpeg",
     "static/media/speakers4.jpeg": "/reactshoeecommerce/static/media/speakers4.c0764e6aa46c0b2cab6e.jpeg",
     "index.html": "/reactshoeecommerce/index.html",
-    "main.4783f83f.css.map": "/reactshoeecommerce/static/css/main.4783f83f.css.map",
-    "main.4bfb82eb.js.map": "/reactshoeecommerce/static/js/main.4bfb82eb.js.map",
+    "main.2957eae9.css.map": "/reactshoeecommerce/static/css/main.2957eae9.css.map",
+    "main.511e00d8.js.map": "/reactshoeecommerce/static/js/main.511e00d8.js.map",
     "453.90419930.chunk.js.map": "/reactshoeecommerce/static/js/453.90419930.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4783f83f.css",
-    "static/js/main.4bfb82eb.js"
+    "static/css/main.2957eae9.css",
+    "static/js/main.511e00d8.js"
   ]
 }
