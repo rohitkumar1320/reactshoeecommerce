@@ -61,35 +61,35 @@ function Home() {
         <div className="grid-sub-container">
           {" "}
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
             src={nikebottom}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
             src={nikebottom3}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
             src={nikebottom4}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
             src={nikebottom2}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
             src={nikebottom6}
             alt="nikehomelogo"
           ></img>{" "}
@@ -112,9 +112,9 @@ function Home() {
           <h3>Trending</h3>
         </p>
         <div className="trending-container">
-          <img className="trending-one" src={trending} alt=""></img>
-          <img className="trending-one" src={trendingone} alt=""></img>
-          <img className="trending-one" src={trendingtwo} alt=""></img>
+          <img className="trending-one" src={trending} alt="shoeimage"></img>
+          <img className="trending-one" src={trendingone} alt="shoeimage"></img>
+          <img className="trending-one" src={trendingtwo} alt="shoeimage"></img>
         </div>
       </div>
 
