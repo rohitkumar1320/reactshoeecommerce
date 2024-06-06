@@ -61,35 +61,60 @@ function Home() {
         <div className="grid-sub-container">
           {" "}
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+              borderRadius: "10px",
+            }}
             src={nikebottom}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+              borderRadius: "10px",
+            }}
             src={nikebottom3}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+              borderRadius: "10px",
+            }}
             src={nikebottom4}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+              borderRadius: "10px",
+            }}
             src={nikebottom2}
             alt="nikehomelogo"
           ></img>
         </div>
         <div className="grid-sub-container">
           <img
-            style={{ objectFit: "cover", width: "100%", height: "100%",borderRadius:"10px" }}
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+              borderRadius: "10px",
+            }}
             src={nikebottom6}
             alt="nikehomelogo"
           ></img>{" "}
