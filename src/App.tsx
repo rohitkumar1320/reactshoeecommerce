@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header></Header>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route path='/reactshoeecommerce' element={<Home />}></Route>
         <Route path='/contact' element={<ContactUs />}></Route>
         <Route path='/mens' element={<Mens />}></Route>
         <Route path='/women' element={<Women></Women>}></Route>
