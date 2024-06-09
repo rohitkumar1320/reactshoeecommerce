@@ -15,7 +15,7 @@ const Header = () => {
       <div className="website-top">
         <SiJordan
           onClick={() => {
-            navigate("/");
+            navigate("/reactshoeecommerce");
           }}
         />
         <nav>
@@ -43,7 +43,7 @@ const Header = () => {
           src={nikelogo3}
           alt="nikelogo3"
           onClick={() => {
-            navigate("/");
+            navigate("/reactshoeecommerce");
           }}
         ></img>
         <nav>
